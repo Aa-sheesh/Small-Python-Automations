@@ -19,7 +19,7 @@ def send_good_morning():
     print("Good Morning message sent!")
 
 # Schedule to run at 6 AM every day
-schedule.every().day.at("08:00").do(send_good_morning)
+schedule.every().day.at("12:47").do(send_good_morning)
 
 # Keep the script running
 while True:
